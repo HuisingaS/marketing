@@ -68,11 +68,12 @@ body {
 	display: flex;
 	justify-content: center;
 	width: 100%;
+	margin-top: 2%;
 	font-family: 'Modern Antiqua', cursive;
 	text-align: center;
 	padding: 2%;
 	background-color: rgb(58, 58, 58);
-	box-shadow: 5px 10px 8px #888888;
+	box-shadow: 5px 1px 8px 8px #888888;
 	border-bottom: 1px solid black;
 }
 
@@ -80,7 +81,6 @@ body {
     width: 15%;
 	font-size: 2.2rem;
 	padding: .7%;
-	box-shadow: 1px 1px 8px 1px #888888;
 }
 
 .navBar a {
@@ -314,7 +314,7 @@ footer.footBar {
     border-bottom: 1px solid black;
     color: #fff;
 	background-color: #177F75;
-	box-shadow: 5px 10px 8px #888888;
+	box-shadow: 5px 1px 8px 8px #888888;
 }
 
 
