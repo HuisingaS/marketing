@@ -60,17 +60,16 @@ body {
     background-color: lightgrey;
 }
 
-
 /*-------------------------------Begin Nav Section-------------------------------------*/
-
 
 .navBar ul {
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	margin-top: 2%;
+	font-size: 2.2vw;
 	font-family: 'Modern Antiqua', cursive;
 	text-align: center;
+	margin-top: 2%;
 	padding: 2%;
 	background-color: rgb(58, 58, 58);
 	box-shadow: 5px 1px 8px 8px #888888;
@@ -79,7 +78,6 @@ body {
 
 .navBar li {
     width: 15%;
-	font-size: 2.2rem;
 	padding: .7%;
 }
 
@@ -99,22 +97,22 @@ body {
     cursor: default;
 }
 
-.navHome {
+.navIndex {
     border-left: 1px solid black;
-	background-color: #177F75;
+	background-color: #B67721;
 	text-shadow: 5px 5px 10px black;
     -webkit-transition: width .3s;
     transition: width .3s;
 }
 
-.navHome:hover {
+.navIndex:hover {
 	width: 20%;
     background-color: orange;
 }
 
 .navAbout {
     border-left: 1px solid black;
-	background-color: #B67721;
+	background-color: #7F171F;
 	text-shadow: 5px 5px 10px black;
     -webkit-transition: width .3s;
     transition: width .3s;
@@ -127,7 +125,7 @@ body {
 
 .navAdvice {
     border-left: 1px solid black;
-	background-color: #7F171F;
+	background-color: #177F75;
 	text-shadow: 5px 5px 10px black;
     -webkit-transition: width .3s;
     transition: width .3s;
@@ -140,7 +138,7 @@ body {
 
 .navTeam {
     border-left: 1px solid black;
-	background-color: #B6212D;
+	background-color: #21B6A8;
 	text-shadow: 5px 5px 10px black;
     -webkit-transition: width .3s;
     transition: width .3s;
@@ -151,14 +149,13 @@ body {
     background-color: orange;
 }
 
-
 /*---------------------------------End Nav section-------------------------------------*/
-/*----------------------------Begin intro paragraph section----------------------------*/
 
+/*----------------------------Begin intro paragraph section----------------------------*/
 
 h1.index {
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 3rem;
+	font-size: 2.4vw;
 	text-align: center;
 	width: 100%;
 	margin-top: 2%;
@@ -189,23 +186,22 @@ img.bannerImg {
     border-bottom: 1px solid black;
 }
 
-p.indexMain {
+p.main {
 	max-width: 100%;
 	font-family: 'Alegreya', serif;
-    font-size: 2.2rem;
+    font-size: 2vw;
     text-align: center;
     color: black;
-    margin-left: 2%;
-    margin-right: 2%;
+	margin: 4% 4% 1%;
 }
 
-p.indexMain::first-letter {
+p.main::first-letter {
     font-size: 200%;
 }
 
+/*---------------------------------End intro paragraph section--------------------------------*/
 
 /*----------------------------Begin User login and sign up section----------------------------*/
-
 
 main.midContent {
 	display: flex;
@@ -214,7 +210,7 @@ main.midContent {
 }
 
 figure.roadtripShoes {
-	width: 40%;
+	width: 45%;
 	margin: 5%;
 }
 
@@ -234,13 +230,13 @@ section.userLoginSignUp {
 	display: flex;
 	height: auto;
 	width: 40%;
-	margin: 3%;
+	margin: 3% 3% 3%;
 }
 
 h2.loginSignUp {
 	text-align: center;
 	display: flex;
-	font-size: 3.1rem;
+	font-size: 3.1vw;
 	margin: 1.5%;
 	font-family: 'Modern Antiqua', cursive;
 }
@@ -248,21 +244,21 @@ h2.loginSignUp {
 p.loginSignUp {
 	text-align: center;
 	font-family: 'Alegreya', serif;
-	font-size: 2rem;
+	font-size: 2vw;
 	margin: 1.5%;
 }
 
 h3.alreadyMember {
 	text-align: center;
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 2.5rem;
+	font-size: 2.5vw;
 	margin: 1.5%;
 }
 
 button.login {
 	text-align: center;
 	padding: 2%;
-	font-size: 1.7rem;
+	font-size: 1.7vw;
 	margin: 1.5%;
 	border-radius: 12px;
 	transition-duration: 0.4s;
@@ -277,12 +273,12 @@ button.login:hover {
 h3.newUser {
 	font-family: 'Modern Antiqua', cursive;
 	text-align: center;
-	font-size: 2.5rem;
+	font-size: 2.5vw;
 	margin: 1.5%;
 }
 
 button.signUp {
-	font-size: 1.7rem;
+	font-size: 1.7vw;
 	text-align: center;
 	padding: 2%;
 	margin: 1.5%;
@@ -298,12 +294,116 @@ button.signUp:hover {
 
 
 /*----------------------------End User login and sign up section----------------------------*/
-/*------------------------------------Begin footer section----------------------------------*/
+
+/*------------------------------------Begin footer -----------------------------------------*/
 
 
-footer.footBar {
+footer.footBarIndex {
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 2.7rem;
+	font-size: 2.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+    padding-top: 1%;
+	padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #fff;
+	background-color: #B67721;
+	box-shadow: 5px 1px 8px 8px #888888;
+}
+
+/*-------------------------------------End index.html-------------------------------------*/
+
+/*------------------------------------begin about.html------------------------------------*/
+
+h1.about{
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 2.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+    padding-top: 1%;
+	padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #fff;
+	background-color: #7F171F;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+.ourTeam {
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+	width: 100%;
+	flex-wrap: wrap;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}
+
+.teamMember {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 2%;
+	padding: 1%;
+	width: 25%;
+	height: auto;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 1px 10px 20px rgb(0, 0, 0);
+}
+
+.memberImg {
+	margin: 2%;
+	border: 1px solid black;
+	width: 100%;
+	height: auto;
+}
+
+.memberName {
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 1.8vw;
+	width: 100%;
+	margin: 4%;
+	text-align: center;
+	height: auto;
+}
+
+.memberRole {
+	font-family: 'Alegreya', serif;
+	font-size: 1.6vw;
+	width: 100%;
+	height: auto;
+	margin: 1%
+}
+
+footer.footBarAbout {
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 2.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+    padding-top: 1%;
+	padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #fff;
+	background-color: #7F171F;
+	box-shadow: 5px 1px 8px 8px #888888;
+}
+
+/*------------------------------------End about.html-------------------------------------*/
+
+/*----------------------------------begin advice.html------------------------------------*/
+
+h1.advice{
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 2.4vw;
 	text-align: center;
 	width: 100%;
 	margin-top: 2%;
@@ -314,36 +414,310 @@ footer.footBar {
     border-bottom: 1px solid black;
     color: #fff;
 	background-color: #177F75;
+	box-shadow: 5px 10px 8px #888888;
+}
+
+footer.footBarAdvice {
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 2.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+    padding-top: 1%;
+	padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #fff;
+	background-color: #177F75;
 	box-shadow: 5px 1px 8px 8px #888888;
 }
 
+/*------------------------------------End advice.html-------------------------------------*/
 
-/*------------------------------------Begin footer section----------------------------------*/
+/*------------------------------------Begin team.html-------------------------------------*/
 
-
-@media(max-width: 675px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
+h1.team{
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 2.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+    padding-top: 1%;
+	padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #fff;
+	background-color: #21B6A8;
+	box-shadow: 5px 10px 8px #888888;
 }
+
+footer.footBarTeam {
+	font-family: 'Modern Antiqua', cursive;
+	font-size: 2.4vw;
+	text-align: center;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 2%;
+    padding-top: 1%;
+	padding-bottom: 1%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #fff;
+	background-color: #21B6A8;
+	box-shadow: 5px 1px 8px 8px #888888;
+}
+
+/*------------------------------------End team.html--------------------------------------*/
+
+/*----------------------------------Begin 800px Break------------------------------------*/
+
+@media(max-width: 800px) {
+
+/*-------------------------------800px Break - index.html--------------------------------*/
+
+	.navBar ul {
+		font-size: 2rem;
+	}
+
+	h1.index {
+		font-size: 3vw;
+	}
+
+	p.main {
+		font-size: 3.2vw;
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+
+	h2.loginSignUp {
+		font-size: 3.5vw;
+	}
+
+	p.loginSignUp {
+		font-size: 2.7vw;
+	}
+
+	h3.alreadyMember {
+		font-size: 1.7rem;
+	}
+
+	h3.newUser {
+		font-size: 1.7rem;
+	}
+
+	button.login {
+		font-size: 1.5rem;
+		padding: 3%;
+	}
+
+	button.signUp {
+		font-size: 1.5rem;
+		padding: 3%;
+	}
+
+	footer.footBarIndex  {
+		font-size: 3vw;
+	}
+
+/*-------------------------------800px Break - about.html--------------------------------*/
+
+	h1.about {
+		font-size: 3vw;
+	}
+
+	.teamMember {
+		width: 40%;
+	}
+	
+	.memberName {
+		font-size: 3vw;
+	}
+	
+	.memberRole {
+		font-size: 2.8vw;
+	}
+
+	footer.footBarAbout  {
+		font-size: 3vw;
+	}
+
+/*-------------------------------800px Break - advice.html--------------------------------*/
+
+	h1.advice {
+		font-size: 3vw;
+	}
+
+	footer.footBarAdvice  {
+		font-size: 3vw;
+	}
+
+/*-------------------------------800px Break - team.html--------------------------------*/
+
+	h1.team {
+		font-size: 3vw;
+	}
+
+	footer.footBarTeam  {
+		font-size: 3vw;
+	}
+}
+
+/*------------------------------------End 800x Break-------------------------------------*/
+
+/*-----------------------------------Begin 500x Break------------------------------------*/
 
 @media(max-width: 500px) {
 
+/*-------------------------------500px Break - index.html--------------------------------*/
+
+	.navBar ul {
+		font-size: 1.5rem;
+		padding: 3%;
+	}
+
+	.navBar li {
+		width: 100%;
+		padding: .7%;
+	}
+
+	li.navIndex {
+		padding: 2%;
+	}
+
+	li.navIndex:hover {
+		width: 100%;
+	}
+
+	li.navAbout {
+		padding: 2%;
+	}
+
+	li.navAbout:hover {
+		width: 100%;
+	}
+
+	li.navAdvice {
+		padding: 2%;
+	}
+
+	li.navAdvice:hover {
+		width: 100%;
+	}
+
+	li.navTeam {
+		padding: 2%;
+	}
+
+	li.navTeam:hover {
+		width: 100%;
+	}
+	
+	h1.index {
+		font-size: 4vw;
+		padding: 2%;
+	}
+
+	p.main {
+		font-size: 4vw;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	main.midContent {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	h2.loginSignUp {
+		font-size: 6vw;
+	}
+	
+	figure.roadtripShoes {
+		width: 60%;
+	}
+	
+	p.loginSignUp {
+		font-size: 3.5vw;
+	}
+
+	section.userLoginSignUp {
+		width: 90%;
+	}
+
+	footer.footBarIndex  {
+		font-size: 4vw;
+	}
+	
+/*-------------------------------500px Break - about.html--------------------------------*/
+
+	h1.about {
+		font-size: 4vw;
+		padding: 2%;
+	}
+
+	.teamMember {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 2%;
+		padding: 1%;
+		width: 80%;
+		height: auto;
+		border: 1px solid black;
+		padding: 10px;
+		box-shadow: 1px 10px 20px rgb(0, 0, 0);
+	}
+	
+	.memberImg {
+		margin: 2%;
+		border: 1px solid black;
+		width: 100%;
+		height: auto;
+	}
+	
+	.memberName {
+		font-family: 'Modern Antiqua', cursive;
+		font-size: 4.5vw;
+		width: 100%;
+		margin: 4%;
+		text-align: center;
+		height: auto;
+	}
+	
+	.memberRole {
+		font-size: 4vw;
+	}
+
+	footer.footBarAbout  {
+		font-size: 4vw;
+	}	
 
 
 
+/*-------------------------------500px Break - advice.html--------------------------------*/
 
 
+	h1.advice {
+		font-size: 4vw;
+		padding: 2%;
+	}
+
+	footer.footBarAdvice  {
+		font-size: 4vw;
+	}
 
 
+/*-------------------------------500px Break - team.html--------------------------------*/
+
+	h1.team {
+		font-size: 4vw;
+		padding: 2%;
+	}
+	
+	footer.footBarTeam  {
+		font-size: 4vw;
+	}
 }
+/*-----------------------------------End 500x Break------------------------------------*/
