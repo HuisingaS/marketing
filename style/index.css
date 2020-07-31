@@ -297,7 +297,7 @@ button.signUp:hover {
 
 footer.footBarIndex {
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 3.6rem;
+	font-size: 2.6rem;
 	text-align: center;
 	width: 100%;
 	margin-top: 5%;
@@ -351,27 +351,29 @@ h1.about{
 }
 
 p.adventureQuote {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	font-family: 'Caveat', cursive;
-	width: 60%;
+	width: 50%;
     border: 2px solid black;
-    padding: 10px;
+    padding: 8px;
 	box-shadow: 3px 10px 20px rgb(0, 0, 0);
-	background-color: #cab5b6;
+	background-color: whitesmoke;
 	border-radius: 15px;
 }
 
 img.coffeeTraveler {
-	height: 40vw;
+	height: 63vw;
 	width: auto;
-    border: 2px solid black;
+	border: 2px solid black;
+	margin-top: 2%;
     padding: 10px;
-    box-shadow: 3px 10px 20px rgb(0, 0, 0);
+	box-shadow: 3px 10px 20px rgb(0, 0, 0);
+	background-color: whitesmoke;
 }
 
 footer.footBarAbout {
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 3.6rem;
+	font-size: 2.6rem;
 	text-align: center;
 	width: 100%;
 	margin-top: 5%;
@@ -408,12 +410,14 @@ h1.advice{
 .mapImg {
 	height: 40vw;
 	width: 100vw;
+	border: 1px solid black;
+	margin-top: 3%;
 }
 
 
 footer.footBarAdvice {
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 3.6rem;
+	font-size: 2.6rem;
 	text-align: center;
 	width: 100%;
 	margin-top: 5%;
@@ -478,7 +482,7 @@ h1.team{
     border: 3px solid #177F75;
 	padding: 10px;
 	background-color: white;
-    box-shadow: 1px 10px 20px rgb(0, 0, 0);
+    box-shadow: 1px 1px 10px #21B6A8;
 }
 
 .memberImg {
@@ -507,7 +511,7 @@ h1.team{
 
 footer.footBarTeam {
 	font-family: 'Modern Antiqua', cursive;
-	font-size: 3.6rem;
+	font-size: 2.6rem;
 	text-align: center;
 	width: 100%;
 	margin-top: 5%;
@@ -592,7 +596,7 @@ footer.footBarTeam {
 		margin-top: 5%;
 		padding: 20px;
 		box-shadow: 3px 10px 20px rgb(0, 0, 0);
-		background-color: #cab5b6;
+		background-color: whitesmoke;
 		border-radius: 15px;
 	}
 	
@@ -716,7 +720,7 @@ footer.footBarTeam {
 	}
 
 	p.main {
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 		margin-left: 5%;
 		margin-right: 5%;
 	}
@@ -751,7 +755,7 @@ footer.footBarTeam {
 	}
 
 	footer.footBarIndex  {
-		font-size: 2.2rem;
+		font-size: 2.1rem;
 	}
 	
 /*-------------------------------500px Break - about.html--------------------------------*/
@@ -767,11 +771,11 @@ footer.footBarTeam {
 		justify-content: center;
 		margin: 2%;
 		padding: 1%;
-		width: 80%;
+		width: 60%;
 		height: auto;
-		border: 1px solid black;
-		padding: 10px;
-		box-shadow: 1px 10px 20px rgb(0, 0, 0);
+		border: 3px solid #177F75;
+		background-color: white;
+		box-shadow: 1px 1px 10px #21B6A8;
 	}
 	
 	.memberImg {
@@ -783,7 +787,7 @@ footer.footBarTeam {
 	
 	.memberName {
 		font-family: 'Modern Antiqua', cursive;
-		font-size: 4.7vw;
+		font-size: 4.2vw;
 		width: 100%;
 		margin: 4%;
 		text-align: center;
@@ -791,11 +795,12 @@ footer.footBarTeam {
 	}
 	
 	.memberRole {
-		font-size: 4.6vw;
+		font-size: 3vw;
 	}
 
 	footer.footBarAbout  {
 		font-size: 4vw;
+		font-size: 2.1rem;
 	}
 
 /*-------------------------------500px Break - advice.html--------------------------------*/
@@ -806,7 +811,7 @@ footer.footBarTeam {
 	}
 
 	footer.footBarAdvice  {
-		font-size: 4vw;
+		font-size: 2.1rem;
 	}
 
 /*-------------------------------500px Break - team.html--------------------------------*/
@@ -821,7 +826,7 @@ footer.footBarTeam {
 	}
 
 	.meetTeam {
-		font-size: 2.1rem;
+		font-size: 1.8rem;
 		padding: 3%
 	}
 }
